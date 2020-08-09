@@ -213,6 +213,10 @@ let CreateQuiz = ({ name }) => {
                       <WhatsappIcon size={50} round={true} />
                     </WhatsappShareButton>
 
+                    <FacebookShareButton url={QuizLink} quote={name}>
+                      <FacebookIcon size={50} round={true} />
+                    </FacebookShareButton>
+
                     <TelegramShareButton url={QuizLink} quote={name}>
                       <TelegramIcon size={50} round={true} />
                     </TelegramShareButton>
